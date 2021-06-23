@@ -1,0 +1,160 @@
+* {
+    
+    margin: 0; 
+    padding: 0;
+    
+  }
+  
+  :root {
+    
+    --negro: #333;
+    --blanco: #EEE;
+    --primario: #A33;
+    --primario-hover: #D33;
+    --secundario: #FAA;
+    --secundario-hover: #FBB;
+    --background: #FEE;
+    
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .navbar {
+   
+    display: flex;
+    background-color: var(--secundario);
+    box-shadow: 5px 0 15px 0 rgba(0,0,0,.2);
+    justify-content: flex-end;
+    padding: 2rem;
+
+}
+  
+  .list {
+    
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    width: 40rem;
+  }
+  
+  .item-list {
+   
+    box-sizing: border-box;
+    border-radius: 10rem;
+    color: var(--negro);
+    padding: 0.8rem 1.5rem;
+    transition: 200ms;
+  }
+  
+  .item-list:hover {
+    background-color: var(--secundario-hover);
+    transition: 200ms;
+  }
+  
+  .item-list:active,
+  .item-list:focus {
+  
+    box-shadow: inset 0 0 0 2px var(--blanco);
+    outline: transparent;
+    transition: 200ms;
+  }
+  
+  .cta {
+  
+    background-color: var(--primario);
+    color: var(--blanco);
+    margin-left: 1rem;
+  }
+  
+  .cta:hover {
+    background-color: var(--primario-hover);
+  }
+
+.header {
+    height: 100px;
+    width: 100%;
+
+}
+
+  .p1 {
+display:flex;
+
+    font-family:'Montserrat';
+    font-size: 30px;
+    font-weight: 800;
+    
+  }
+
+  .p {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+display:flex; 
+font-family:'Montserrat';
+font-size:"30px";
+font-weight:800;
+
+
+  }
+
+  .h1 {
+display: flex;
+    font-family:'Roboto';
+    font-size: 60px;
+    padding-top: 0.625rem;
+    
+
+  }
+
+
+  .contenedor {
+    
+    display: flex;
+    background-color: var(--blanco);
+    box-shadow: 5px 0 15px 0 rgba(0,0,0,.2);
+    justify-content: flex-start;
+ 
+    
+  }
+
+
+  .contenedor2 {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    margin-left: 8.25rem;
+   
+
+  }
+
+  .img {  
+ 
+width: 100%;
+display:flex;
+justify-content: center;
+align-items: flex-end;
+
+
+
+
+  } 
+
+  .img1 {
+      width: 450px;
+height: 550px;
+    display:flex;  
+    /* flex-direction: column;  */
+    justify-content:center; 
+    align-items: flex-end; 
+    border-radius: 80%;
+    
+
+  }
